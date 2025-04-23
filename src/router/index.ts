@@ -47,6 +47,15 @@ const asyncRoutes: RouteRecordRaw = {
 				title: '个人中心',
 				cache: true
 			}
+		},
+		{
+			path: '/check/report/detail',
+			name: 'checkReportDetail',
+			component: () => import('../views/check/report/detail.vue'),
+			meta: {
+				title: '报告详情',
+				cache: true
+			}
 		}
 	]
 }
